@@ -1,11 +1,14 @@
 # SistemaRPG
 
-# AS Rotas foram feitas com Swagger em JAVA tera que baixar uma dependencia para o Swagger no java Para baixar o Swagger as rotas funcionam com o Postman tambem.
+# Tecnologias Utilizadas
+ °Java Spring Boot
+ °Banco de da h2
 
-org.springdoc
+Dependencia: org.springdoc
 
-"springdoc-openapi-starter-webmvc-ui"
--2.1.0
+Artefato: springdoc-openapi-starter-webmvc-ui
+
+Vesao: 2.1.0
 
 
 # Link para testar as Rotas
@@ -16,18 +19,25 @@ http://localhost:8080/swagger-ui/index.html#/
 
 # Configurações do H2
 spring.datasource.url=jdbc:h2:mem:cinema
+
 spring.datasource.driver-class-name=org.h2.Driver
+
 spring.datasource.username=sa
+
 spring.datasource.password=
+
 spring.h2.console.enabled=true
+
 spring.h2.console.path=/h2-console
 
 # Configurações do JPA
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
 spring.jpa.hibernate.ddl-auto=update
 
 # Configurações do Swagger
 springdoc.api-docs.path=/api-docs
+
 springdoc.swagger-ui.path=/swagger-ui.html
 
 
