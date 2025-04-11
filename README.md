@@ -2,16 +2,9 @@
 
 Este projeto é um sistema de gerenciamento para um jogo de RPG desenvolvido em **Java com Spring Boot**. Ele permite o cadastro e gerenciamento de **personagens** e **itens mágicos**, com regras específicas para cada tipo de item.
 
-# Tecnologias Utilizadas
-   java Spring Boot
-   
-   Banco de dados H2 (in-memory)
+##  Tecnologias Utilizadas
 
-
-## 🚀 Tecnologias Utilizadas
-
-- Java 17+
-- Spring Boot
+- Java Spring Boot
   - Spring Web
   - Spring Data JPA
 - H2 Database (banco de dados em memória)
