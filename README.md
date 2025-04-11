@@ -46,12 +46,19 @@ springdoc.api-docs.path=/api-docs
 
 
 Endpoints
+
 Personagem
+
 Método	Endpoint	Descrição	Corpo da Requisição (JSON)
+
 POST	/personagens	Cadastra um personagem	{ "nome": "Argon", "nomeAventureiro": "Passolago", "classe": "GUERREIRO", "level": 5, "forcaBase": 6, "defesaBase": 4, "itensMagicos": [] }
+
 GET	/personagens	Lista todos os personagens	-
+
 GET	/personagens/{id}	Busca personagem por ID	-
+
 PUT	/personagens/{id}/nome-aventureiro	Atualiza nome aventureiro	"NovoNome"
+
 DELETE	/personagens/{id}	Remove personagem	-
 POST	/personagens/{id}/itens	Adiciona item ao personagem	1 (ID do item)
 DELETE	/personagens/{id}/itens/{itemId}	Remove item do personagem	-
