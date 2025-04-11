@@ -1,7 +1,7 @@
 # SistemaRPG
 
 # Tecnologias Utilizadas
-   Java Spring Boot
+   #java Spring Boot
    
    Banco de dados H2 (in-memory)
 
