@@ -3,16 +3,23 @@ package com.SitemaRPG.SitemaRPG.Models;
 
 import jakarta.persistence.*;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+
 @Entity
-@Table(name = "ItemMagico")
+@Table(name = "/ItemMagico")
 public class ItensMagicoModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String Nome;
-    private int Força;
-    private int defesa;
+
+    @Min(0) @Max(10)
+    private int forca;
+
+    @Min(0) @Max(10)
+    private int Defesa;
 
     @Enumerated(EnumType.STRING)
     private TipoItem  tipoItem;
@@ -37,20 +44,20 @@ public class ItensMagicoModel {
         Nome = nome;
     }
 
-    public int getForça() {
-        return Força;
+    public int getForca() {
+        return forca;
     }
 
-    public void setForça(int força) {
-        Força = força;
+    public void setForca(int forca) {
+        this.forca = forca;
     }
 
     public int getDefesa() {
-        return defesa;
+        return Defesa;
     }
 
     public void setDefesa(int defesa) {
-        this.defesa = defesa;
+        this.Defesa = defesa;
     }
 
     public TipoItem getTipoItem() {
@@ -60,4 +67,6 @@ public class ItensMagicoModel {
     public void setTipoItem(TipoItem tipoItem) {
         this.tipoItem = tipoItem;
     }
+
+
 }
