@@ -2,8 +2,9 @@
 
 # AS Rotas foram feitas com Swagger em JAVA tera que baixar uma dependencia para o Swagger no java Para baixar o Swagger as rotas funcionam com o Postman tambem.
 
-- org.springdoc
--springdoc-openapi-starter-webmvc-ui
+org.springdoc
+
+"springdoc-openapi-starter-webmvc-ui"
 -2.1.0
 
 
