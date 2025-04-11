@@ -1,8 +1,10 @@
 # SistemaRPG
 
 # Tecnologias Utilizadas
- °Java Spring Boot
- °Banco de da h2
+   Java Spring Boot
+   
+   Banco de dados H2 (in-memory)
+
 
 Dependencia: org.springdoc
 
